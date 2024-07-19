@@ -1,4 +1,5 @@
 Introduction to XSSnake
+
 XSSnake is a powerful and user-friendly tool designed for identifying Cross-Site Scripting (XSS) vulnerabilities in web applications. Developed in Python, XSSnake harnesses popular libraries such as requests, BeautifulSoup, and colorama to deliver an efficient and thorough solution for web security assessments.
 
 Key Features:
@@ -14,8 +15,10 @@ Key Features:
 
 - Enhanced Output: Displays a colorful and informative banner to highlight the tool’s branding and provide a clear indication of the scanning progress.
 
+
 How It Works:
-Open the terminal and follow these detailed steps as shown:
+
+> Open the terminal and follow these detailed steps as shown:
 - Use the nano xssnake.py command to create or edit the xssnake.py file.
 - List the contents of the directory with the ls command to verify the presence of xssnake.py.
 - Make the xssnake.py file executable by running the chmod +x xssnake.py command.
