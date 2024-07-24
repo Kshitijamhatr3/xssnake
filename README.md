@@ -1,8 +1,9 @@
-Introduction to XSSnake
+<h1> Introduction to XSSnake     &#128013 </h1> 
 
 XSSnake is a powerful and user-friendly tool designed for identifying Cross-Site Scripting (XSS) vulnerabilities in web applications. Developed in Python, XSSnake harnesses popular libraries such as requests, BeautifulSoup, and colorama to deliver an efficient and thorough solution for web security assessments.
 
-Key Features:
+<h2> Key Features: </h2>
+
 - Customizable Payloads: Test for XSS vulnerabilities using payloads from a user-specified text file, allowing for tailored testing based on specific scenarios and threats.
 
 - Form Parameter Scanning: Automatically detects and tests parameters in HTML forms for both reflected and stored XSS vulnerabilities.
@@ -16,13 +17,15 @@ Key Features:
 - Enhanced Output: Displays a colorful and informative banner to highlight the tool’s branding and provide a clear indication of the scanning progress.
 
 
-How It Works:
+<h2> How It Works: </h2>
 
-> Open the terminal and follow these detailed steps as shown:
-- Use the nano xssnake.py command to create or edit the xssnake.py file.
-- List the contents of the directory with the ls command to verify the presence of xssnake.py.
-- Make the xssnake.py file executable by running the chmod +x xssnake.py command.
-- Again, list the contents of the directory with the ls command to confirm the changes.
+<h3> Open the terminal and follow these detailed steps as shown: </h3>
+
+1. Use the nano xssnake.py command to create or edit the xssnake.py file.
+2. List the contents of the directory with the ls command to verify the presence of xssnake.py.
+3. Make the xssnake.py file executable by running the chmod +x xssnake.py command.
+4. Again, list the contents of the directory with the ls command to confirm the changes. <br>
+
 ![image](https://github.com/user-attachments/assets/57c59904-8de1-4767-bf39-c8d8b9cd9ace)
 
 As shown in the image, the lab 'Reflected XSS into HTML context with nothing encoded' is not solved. Copy the following URL to the lab: 0a47005e0316b4018171e3a300ca00db.web-security-academy.net.
@@ -40,6 +43,7 @@ This demo shows that when we have launched the xssnake.py tool, it successfully 
 
 Here is the result indicating the success and failure of the attack, along with the scan result summary.
 ![image](https://github.com/user-attachments/assets/084af37d-d2b5-48b6-a63d-b85ea458049c)
+
 
 Powered by Sukshield
 https://sukshield.com/
